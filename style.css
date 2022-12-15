@@ -1,0 +1,144 @@
+*{
+    font-family:  ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color:#262626;
+    margin-bottom: 0%;
+    display: flex;
+}
+#navbar>div>img{
+    height: 70%;
+    margin-top: 5%;
+}
+#navbar>div{
+
+justify-content: space-between;
+}
+.nav{
+    display: flex;
+    filter: invert(100%);
+    margin-left: 65%;
+    justify-content: space-evenly;
+    width: 10%;
+    margin-top: 2%;
+}
+
+#book{
+    background-image: url(	https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg);
+    width: 100%;
+height: 400px;
+max-width: 100%;
+color: white;
+font-size: 20px;
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: -2.5%;
+   
+}
+#book>#first{
+    margin-top: 3%;
+    margin-left: 7%;
+}
+#book>h1{
+width: 70%;
+text-align: center;
+padding-top: 5%;
+
+}
+#but1{
+    color: white;
+    text-align: center;
+    background-color: #1e87f0;
+
+    width: 150px;
+}
+#destination{
+width: 100%;
+height: 200px;
+display: flex;
+border: 1px solid red;
+margin: auto;
+}
+#destination>div{
+width: 18%;
+margin: auto;
+height: 80%;
+border: 1px solid red;
+} 
+
+
+#destination>.img1{
+background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/cape-town-18738.a03fe431b7f0.jpg);
+}
+
+#destination>.img2{
+    background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/orlando-5996.b0bf66cecab5.jpg);
+}
+#destination>.img3{
+    background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/sydney-12057.f0b028083eef.jpg);
+}
+#destination>.img4{
+    background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/barcelona-13765.0b9dcf0cb99c.jpg);
+}
+#destination>.img5{
+    background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/rome-12009.602b199321a4.jpg);
+}
+
+#next{
+border: 1px solid red;
+height: 400px;
+width: 100%;
+display: flex;
+}
+
+#other{
+border: 1px solid red;
+height: 300px;
+width: 100%;
+display: flex;
+}
+
+
+#vacation{
+width: 100%;
+height: 200px;
+display: flex;
+border: 1px solid red;
+margin: auto;
+}
+#vacation>div{
+width: 18%;
+margin: auto;
+height: 80%;
+border: 1px solid red;
+} 
+#heading{
+width: 100%;
+display: flex;
+padding: 5px;
+margin: 5px;
+margin-left: 2%;
+}
+#heading>div{
+width: 18%;
+}
+#footer{
+    width: 100%;
+display: flex;
+padding: 5px;
+margin: 5px;
+margin-left: 2%;
+}
+#footer>div{
+    width: 18%;
+    }
+   
