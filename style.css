@@ -98,7 +98,7 @@ background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/
 }
 
 #next{
-border: 1px solid red;
+border: 0px solid red;
 height: 400px;
 width: 100%;
 display: flex;
@@ -108,19 +108,19 @@ margin: auto;
 #next1{
     height: 100%;
     width: 40%; 
-    border: 1px solid red;
+    border: 0px solid red;
     margin: auto;   
 }
 #next2{
     height: 100%;
     width: 50%; 
-    border: 1px solid red; 
+    border: 0px solid red; 
     margin: auto;
 }
 #next2>div{
     height: 50%;
     width: 100%; 
-    border: 1px solid red; 
+    border: 0px solid red; 
     margin: auto; 
     display: flex; 
 }
@@ -128,31 +128,49 @@ margin: auto;
     background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/cape-town-18738.a03fe431b7f0.jpg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next2>div>.img2{
     background-image: url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16720/photo_200/3a17e0ebf71b11e992500a8e1b1ce4da_photo_200.jpeg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next2>div>.img3{
     background-image: url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16722/photo_200/d9d86936f1a311e9924e0a8e1b1ce4da_photo_200.jpeg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next2>div>.img4{
     background-image: url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16723/photo_200/14650812f1a811e9924e0a8e1b1ce4da_photo_200.jpeg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next2>div>.img5{
     background-image: url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16721/photo_200/a85131caf1a511e9924e0a8e1b1ce4da_photo_200.jpeg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next2>div>.img6{
     background-image: url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16727/photo_200/92a02d4af1a511e9924e0a8e1b1ce4da_photo_200.jpeg);
 width: 30%;
 margin: auto;
+color: white;
+text-align: center;
+border-radius: 10px;
 }
 #next12{
     height: 65%;
@@ -176,22 +194,56 @@ border: 1px solid red;
 height: 300px;
 width: 100%;
 display: flex;
+margin: auto;
+}
+
+#other>div{
+height: 100%;
+width: 45%;
+margin: auto;
+border: 1px solid red;
+}
+#other>div>div{
+    display: flex;
+
 }
 
 
 #vacation{
-width: 100%;
-height: 200px;
-display: flex;
-border: 1px solid red;
-margin: auto;
-}
-#vacation>div{
-width: 18%;
-margin: auto;
-height: 80%;
-border: 1px solid red;
-} 
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border: 1px solid white;
+    margin: auto;
+    }
+    #vacation>div{
+    width: 18%;
+    margin: auto;
+    height: 80%;
+    color: aliceblue;
+    border: 0px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+    } 
+    
+    
+    #vacation>.img1{
+    background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/cape-town-18738.a03fe431b7f0.jpg);
+    }
+    
+    #vacation>.img2{
+        background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/orlando-5996.b0bf66cecab5.jpg);
+    }
+    #vacation>.img3{
+        background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/sydney-12057.f0b028083eef.jpg);
+    }
+    #vacation>.img4{
+        background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/barcelona-13765.0b9dcf0cb99c.jpg);
+    }
+    #vacation>.img5{
+        background-image: url(https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/rome-12009.602b199321a4.jpg);
+    } 
 #heading{
 width: 100%;
 display: flex;

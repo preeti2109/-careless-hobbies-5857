@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        #box{
+            display: flex;
+        }
+       #left{
+      height: 600px;
+      width: 30%;
+      border: 0px solid red;
+      margin-top: 4%;
+      margin-left: 35%;
+      
+       }
+      
+       body{
+            
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: 1344px 1315px;
+    background-position: calc(50% - 514px) -216px;
+        }
+      
+       .none{
+        text-decoration: none;
+        color: gray;
+       }
+      
+       #left>input{
+        width: 97%;
+        height: 30px;
+       }
+       #left>button{
+        width: 100%;
+        border: 0px;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+       }
+       .orange{
+        background-color: orangered;
+        color: white;
+
+       }
+       .orange:hover{
+        background-color: rgb(135, 41, 4);
+        color: white;
+        cursor: pointer;
+        
+       }
+
+       @media all and (min-width:300px) and (max-width:900px)
+   {
+
+    #box{
+            display: flex;
+           
+        }
+       #left{
+      height: 600px;
+      width: 40%;
+      border: 0px solid red;
+      margin-top: 30%;
+      margin-left: -20%;
+      
+       }
+    #box{
+            display: flex;
+            margin-left: 25%;
+        }
+   
+       #left>input{
+        width: 97%;
+        height: 30px;
+       }
+       #left>button{
+        width: 100%;
+        border: 0px;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+       }
+       .orange{
+        background-color: orangered;
+       }
+      
+    }
+
+    </style>
 </head>
-<body>
-  
+<body> <form action="">
+    <div id="box">
+        
+        <div id="left">
+       <h2>Create your account</h2>
+    <button class="google" >Continue with Google</button>
+    <hr>
+    <h3>Email</h3>
+       <input id="email" type="email" >
+       <h3>Password</h3>
+       <input id="pass" type="password" >
+     
+<button class="orange" onClick="store()">Create Account</button>
+       <p>Already have an account?<a class="none" href="">Log in</a>?</p>
+       <p>By creating your account, you agree to the<a class="none" href="">Terms of services</a>and <a class="none" href="">Privacy Policy</a></p>
+        </div>
+    
+        
+    </div>
+</form>
 </body>
 </html>
+<script>
+
+let email = document.getElementById('email');
+var pasw = document.getElementById('pass');
+
+// storing input from register-form
+function store() {
+    localStorage.setItem('name', email.value);
+    localStorage.setItem('passw', pasw.value);
+}
+</script>
+
